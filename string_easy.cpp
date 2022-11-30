@@ -48,11 +48,18 @@ int itc_count_char_in_str(char ch, string str){
         }
     }
 return count;
+}
+string itc_even_place(string str){
+    string sctop = "";
+    for (int i = 0; i != str.size(); i ++){
+        if (i % 2 == 1){
+            sctop += str[i];
+        }
 
-
+    }
+return sctop;
 
 }
-
 
 
 
